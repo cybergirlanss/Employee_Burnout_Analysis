@@ -10,10 +10,14 @@ By analyzing these factors, we aim to develop a predictive model to identify emp
 
 **Exploratory Data Analysis (EDA):**
 Insights into the dataset using bar plots, histograms, pair plots, correlation heatmaps, and scatter plots.
+
+
 **Regression Models Evaluated:**
 Linear Regression (final deployed model).
 K-Nearest Neighbors (KNN).
 Support Vector Regression (SVR).
+
+
 **Performance Metrics:**
 Comprehensive evaluation using Mean Squared Error, Mean Absolute Error, Root Mean Squared Error, and R².
 **Deployment:**
