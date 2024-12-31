@@ -56,15 +56,15 @@ The dataset includes the following features:
 
  # Usage
 
-**Exploratory Data Analysis**:
-Run the script eda.py to generate visualizations like bar plots, histograms, pair plots, and correlation heatmaps.
+1. **Exploratory Data Analysis**:
+   Run the script eda.py to generate visualizations like bar plots, histograms, pair plots, and correlation heatmaps.
 
-**Model Training and Evaluation**:
-Use train_model.py to train Linear Regression, KNN, and SVR models.
-Evaluate models using performance metrics like MSE, RMSE, and R².
+2. **Model Training and Evaluation**:
+    Use train_model.py to train Linear Regression, KNN, and SVR models.
+    Evaluate models using performance metrics like MSE, RMSE, and R².
 
-**Prediction**:
-Run predict.py to use the Linear Regression model for predicting burnout rates on new data.
+3. **Prediction**:
+   Run predict.py to use the Linear Regression model for predicting burnout rates on new data.
 
 # Results
 
@@ -80,7 +80,7 @@ R-squared Score (R²): 0.9188
 Burnout is strongly correlated with Mental Fatigue Score and Resource Allocation.
 Employees with limited WFH access show higher burnout rates.
 
-**Future Scope**
+# Future Scope
 
 Incorporate real-time data streams for continuous monitoring of employee burnout.
 Develop an interactive dashboard for HR professionals to visualize predictions.
