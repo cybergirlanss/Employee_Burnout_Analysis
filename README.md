@@ -35,7 +35,39 @@ The dataset includes the following features:
 
 # Installation
 1. clone the repository:
-   ```git clone https://github.com/yourusername/employee-burnout-analysis.git
-      cd employee-burnout-analysis
-```
-3. 
+   ```
+      git clone https://github.com/cybergirlanss/Employee_Burnout_Analysis.git
+      cd employee-burnout-analysis```
+2. Install the required libraries:
+   ```
+      pip install -r requirements.txt ```
+
+ # Usage
+
+**Exploratory Data Analysis**:
+Run the script eda.py to generate visualizations like bar plots, histograms, pair plots, and correlation heatmaps.
+**Model Training and Evaluation**:
+Use train_model.py to train Linear Regression, KNN, and SVR models.
+Evaluate models using performance metrics like MSE, RMSE, and R².
+**Prediction**:
+Run predict.py to use the Linear Regression model for predicting burnout rates on new data.
+
+# Results
+
+**Final Model**: Linear Regression
+**Performance Metrics**:
+Mean Squared Error (MSE): 0.0031
+Root Mean Squared Error (RMSE): 0.0562
+Mean Absolute Error (MAE): 0.0460
+R-squared Score (R²): 0.9188
+**Insights from EDA**:
+Burnout is strongly correlated with Mental Fatigue Score and Resource Allocation.
+Employees with limited WFH access show higher burnout rates.
+
+**Future Scope**
+
+Incorporate real-time data streams for continuous monitoring of employee burnout.
+Develop an interactive dashboard for HR professionals to visualize predictions.
+Include qualitative data, such as employee feedback and surveys, to improve model accuracy.
+
+
